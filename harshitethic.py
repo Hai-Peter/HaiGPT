@@ -7,7 +7,7 @@ import openai
 #OpenAI API key
 aienv = os.getenv('OPENAI_KEY')
 if aienv == None:
-    openai.api_key = "ENTER YOUR API KEY HERE"
+    openai.api_key = "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"
 else:
     openai.api_key = aienv
 print(aienv)
@@ -15,7 +15,7 @@ print(aienv)
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
 if tgenv == None:
-    tgkey = "ENTER YOUR TELEGRAM TOKEN HERE"
+    tgkey = "5828213778:AAEcT5NlixzsK-8yWzG4XcNxu05A55ysB6k"
 else:
     tgkey = tgenv
 print(tgenv)
@@ -35,8 +35,8 @@ running = False
 cache = None
 qcache = None
 chat_log = None
-botname = 'Harshit ethic'
-username = 'harshitethic_bot'
+botname = 'HaiGPT'
+username = 'haigpt_bot'
 # Max chat log length (A token is about 4 letters and max tokens is 2048)
 max = int(3000)
 
